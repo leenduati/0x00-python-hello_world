@@ -10,4 +10,4 @@ def uppercase(str):
             sol += chr(res)
         else:
             sol += str[i]
-    print(sol)
+    print('{}'.format(sol))
