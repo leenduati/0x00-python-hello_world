@@ -7,13 +7,9 @@ def safe_print_list(my_list=[], x=0):
         for i in new_list:
             tot = tot + 1
             print("{:d}".format(i), end="")
-        print('\n')
-        return tot
 
     except IndexError:
-        tot = 0
-        for j in my_list:
-            print("{:d}".format(j), end="")
-            tot = tot + 1
-        print('\n')
+        pass
+    finally:
+        print()
         return tot
