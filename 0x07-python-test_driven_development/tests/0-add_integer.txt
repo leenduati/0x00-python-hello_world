@@ -1,0 +1,38 @@
+The ``0-add_integer`` module
+==========================
+
+Using ``add_integer``
+--------------------
+
+
+This is the test case for 0-add_integer.
+It adds two values together and returns the result
+
+>>> add_integer = __import__('0-add_integer').add_integer
+
+>>> add_integer(1, 2)
+3
+>>> add_integer(4, "9")
+Traceback (most recent call last):
+  ...
+TypeError: b must be an integer
+>>> add_integer("4", 5)
+Traceback (most recent call last):
+  ...
+TypeError: a must be an integer
+>>> add_integer(5.0, 2)
+7
+>>> add_integer(-3.0, -4)
+-7
+>>> add_integer(2, -2.0)
+0
+>>> add_integer(-3)
+95
+>>> add_integer(2, 43.0)
+45
+>>> add_integer(2)
+100
+>>> add_integer()
+Traceback (most recent call last):
+...
+TypeError: add_integer() missing 1 required positional argument: 'a'
