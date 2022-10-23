@@ -9,6 +9,8 @@ def complex_delete(a_dictionary, value):
             # print(i[1])
             a_dictionary.pop(i[0])
         continue
+        if i[1] != value:
+            return a_dictionary
         # new_dict.update({i[0]:i[1]})
     # key_list = list(a_dictionary.keys())
     # val_list = list(a_dictionary.values())
