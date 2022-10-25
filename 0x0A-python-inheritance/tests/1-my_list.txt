@@ -1,4 +1,4 @@
-The ``My List`` module
+The ``My_List`` module
 ==========================
 
 Using ``print_sorted(self)``
