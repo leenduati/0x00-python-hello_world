@@ -8,9 +8,6 @@ class MyList(list):
     Attribues:
         No atts present
     """
-    def __init__(self):
-        super().__init__()
-        self.list = list
 
     def print_sorted(self):
         print(sorted(self))
